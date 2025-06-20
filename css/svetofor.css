@@ -1,0 +1,59 @@
+.red {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+.yellow {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.green {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+}
+.text {
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.kaka {
+    text-decoration: none;
+}
+ul li::after {
+    content: "23";
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.box1 {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+.box2 {
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+}
+.cucu:hover {
+    text-decoration: none;
+    color: red;
+}
+.new::before {
+    content: "22";
+    text-decoration: underline;
+    color: green;
+}

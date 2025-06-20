@@ -1,0 +1,14 @@
+.lorem1 {
+    color: red;
+    background-color: gray;
+}
+.dolor1 {
+    background-image: url(../../img/main/logo.jpg);
+    background-repeat: no-repeat;
+}
+p {
+    border: 3px black solid;
+    border-radius: 10px;
+    border-bottom-color: green;
+    border-top-color: violet;
+}
